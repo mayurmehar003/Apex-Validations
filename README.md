@@ -50,3 +50,10 @@ Help text-
 3.The password must have one LowerCase.<br>
 4.The password must have one UpperCase.<br>
 5.The password must have one  special character.
+
+
+
+✔  Field allowed only 6 digits- 
+Type-Expression
+Language-PL/SQL
+PL/SQL Expression- REGEXP_LIKE(:P3_POORNATA_ID, '^\d{6}$')
